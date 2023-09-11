@@ -2,29 +2,12 @@
 
 Curso de NextJS dictado por [@jonalvarezz](https://twitter.com/jonalvarezz) para [Platzi](https://platzi.com)
 
-### 🚀 Logros
 
-1. Creación del proyecto
-1. Agrego una ruta básica
-1. Agrego una ruta dinámica
-1. Enlazo páginas y creo una SPA
+//ALL IN ENGLISH
 
-### 🤖 Guía Rápida
+## Paso 1
 
-1.  **Empieza a desarrollar.**
+La API. 
+Creamos una creatva base dedatos de aguacates en el archivo databas/database. Uso la configuracion que creo el profesor en database/db.ts donde devolvemos el array completo y por id, tambien implementamos un setTimeout para simular un delay. 
 
-    Instala dependencias
-
-    ```sh
-    yarn
-    ```
-
-    Inicia el proyecto
-
-    ```sh
-    yarn dev
-    ```
-
-    El sitio estará disponible en http://localhost:3000.
-
-    Happy hacking!
+Creamos una carpeta llamada api/avo y adentro un archivo index.ts para crear una api ready para consumir, donde esten todos los aguacates.
